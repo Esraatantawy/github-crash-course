@@ -1,11 +1,11 @@
-name: Fisrt Workflow
+name: First Workflow
 on: workflow_dispatch
 jobs:
  first-job:
   runs-on: windows-latest
   steps:
    - name: Print greeting
-     run: "Hello Roro!"
+     run: echo "Hello Roro!"
    - name: Print goodbye
      run: echo "Done-byeee!"
      
